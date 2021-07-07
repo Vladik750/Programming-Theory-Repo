@@ -5,7 +5,7 @@ using TMPro;
 
 public class Shape : MonoBehaviour
 {
-    protected string shapeName;
+    protected string shapeName { get { return shapeName; } set { shapeName = value; } }
     public TextMeshProUGUI shapeText;
 
     //Polymorphism
