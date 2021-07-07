@@ -7,6 +7,7 @@ public class CylinderScript : Shape
     // Start is called before the first frame update
     void Start()
     {
+        //Inheritance
         shapeName = "Cylinder";
     }
 

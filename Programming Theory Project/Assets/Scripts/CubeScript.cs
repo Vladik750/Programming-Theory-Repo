@@ -7,6 +7,7 @@ public class CubeScript : Shape
     // Start is called before the first frame update
     void Start()
     {
+        //Inheritance
         shapeName = "Cube";
     }
 

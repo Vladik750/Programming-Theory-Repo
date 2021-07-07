@@ -420,6 +420,7 @@ GameObject:
   - component: {fileID: 1007032524}
   - component: {fileID: 1007032523}
   - component: {fileID: 1007032522}
+  - component: {fileID: 1007032526}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -503,6 +504,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007032526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007032521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968a924634d3ff24f969816cd1816f2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeText: {fileID: 2023470334}
 --- !u!1 &1325134424
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +529,7 @@ GameObject:
   - component: {fileID: 1325134427}
   - component: {fileID: 1325134426}
   - component: {fileID: 1325134425}
+  - component: {fileID: 1325134429}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -599,6 +614,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -5.387, y: -130.873, z: -59.745}
+--- !u!114 &1325134429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325134424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522ea9425b1ab0842966e8c3c187b59d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeText: {fileID: 2023470334}
 --- !u!1 &1614891923
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +805,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -70}
-  m_SizeDelta: {x: 300, y: 50}
+  m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023470334
 MonoBehaviour:
@@ -826,14 +854,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

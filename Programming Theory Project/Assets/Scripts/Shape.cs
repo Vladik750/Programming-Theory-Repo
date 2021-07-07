@@ -8,7 +8,7 @@ public class Shape : MonoBehaviour
     protected string shapeName;
     public TextMeshProUGUI shapeText;
 
-    //Inheritance
+    //Polymorphism
     public void OnMouseDown()
     {
        shapeText.SetText(shapeName + " was clicked.");
