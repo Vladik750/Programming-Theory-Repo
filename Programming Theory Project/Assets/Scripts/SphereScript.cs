@@ -8,7 +8,7 @@ public class SphereScript : Shape
     void Start()
     {
         //Inheritance
-        shapeName = "Sphere";
+        ShapeName = "Sphere";
     }
 
     // Update is called once per frame

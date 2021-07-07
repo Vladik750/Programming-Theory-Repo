@@ -8,7 +8,7 @@ public class CylinderScript : Shape
     void Start()
     {
         //Inheritance
-        shapeName = "Cylinder";
+        ShapeName = "Cylinder";
     }
 
     // Update is called once per frame

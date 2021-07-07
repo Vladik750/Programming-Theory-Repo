@@ -6,8 +6,10 @@ using TMPro;
 public class Shape : MonoBehaviour
 {
     //Encapsulation
-    protected string shapeName { get { return shapeName; } set { shapeName = value; } }
+    private string shapeName;
     public TextMeshProUGUI shapeText;
+
+    public string ShapeName { get { return shapeName; } set { shapeName = value; } }
 
     //Polymorphism
     public void OnMouseDown()

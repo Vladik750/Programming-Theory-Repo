@@ -8,7 +8,7 @@ public class CubeScript : Shape
     void Start()
     {
         //Inheritance
-        shapeName = "Cube";
+        ShapeName = "Cube";
     }
 
     // Update is called once per frame
